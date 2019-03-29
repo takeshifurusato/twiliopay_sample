@@ -37,7 +37,6 @@ $(function() {
         syncDoc.set(value);
     });
 
-    // こちらの処理を追加
     $('#btnGuide').on('click', function() {
         $.ajax({
                 url:'../pay-guide-start',
